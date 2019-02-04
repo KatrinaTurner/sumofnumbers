@@ -16,8 +16,8 @@ function sumWhile(list) {
   return sum;
 }
 function sumRecursion(list) {
-  if (list.length === 1) {
-    return list[0];
+  if (list.length === 0) {
+    return 0;
   }
   return list[0] + sumRecursion(list.slice(1));
 }
