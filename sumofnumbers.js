@@ -25,7 +25,7 @@ function sumTheSimpleWay(list) {
   return _.reduce(list, function (num, memo) { return memo + num; }, 0);
 }
 
-const testList = [1, 2, 3, 4];
+const testList = [1, 2, 3, 4, 5];
 console.log(sumFor(testList));
 console.log(sumWhile(testList));
 console.log(sumRecursion(testList));
